@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pmafood.descriptiondetails.view.DescriptionDetailsFragment"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/foodDetailsImg7"
+            android:layout_width="141dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="24dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:scaleType="fitXY"
+            android:tooltipText="@string/app_name"
+            app:layout_constraintTop_toBottomOf="@+id/restaurantLayout4"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/foodDetailsImg9"
+            android:layout_width="141dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="24dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:scaleType="fitXY"
+            android:tooltipText="@string/app_name"
+            app:layout_constraintStart_toEndOf="@+id/foodDetailsImg7"
+            app:layout_constraintTop_toBottomOf="@+id/restaurantLayout4"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/foodDetailsImg8"
+            android:layout_width="141dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="24dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:scaleType="fitXY"
+            android:tooltipText="@string/app_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/restaurantLayout4"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/foodDetailsImg4"
+            android:layout_width="141dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:scaleType="fitXY"
+            android:tooltipText="@string/app_name"
+            app:layout_constraintTop_toBottomOf="@+id/restaurantLayout3"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/foodDetailsImg5"
+            android:layout_width="141dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:scaleType="fitXY"
+            android:tooltipText="@string/app_name"
+            app:layout_constraintStart_toStartOf="@+id/foodDetailsImg4"
+            app:layout_constraintTop_toBottomOf="@+id/restaurantLayout3"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/foodDetailsImg6"
+            android:layout_width="141dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:scaleType="fitXY"
+            android:tooltipText="@string/app_name"
+            app:layout_constraintStart_toEndOf="@+id/foodDetailsImg4"
+            app:layout_constraintTop_toBottomOf="@+id/restaurantLayout3"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/foodDetailsImg1"
+            android:layout_width="132dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="24dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:scaleType="fitXY"
+            android:tooltipText="@string/app_name"
+            app:layout_constraintTop_toBottomOf="@+id/restaurantLayout"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/foodDetailsImg3"
+            android:layout_width="141dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="272dp"
+            android:layout_marginTop="24dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:scaleType="fitXY"
+            android:tooltipText="@string/app_name"
+            app:layout_constraintStart_toStartOf="@+id/foodDetailsImg1"
+            app:layout_constraintTop_toBottomOf="@+id/restaurantLayout"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/foodDetailsImg2"
+            android:layout_width="137dp"
+            android:layout_height="131dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="24dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:scaleType="fitXY"
+            android:tooltipText="@string/app_name"
+            app:layout_constraintStart_toStartOf="@+id/foodDetailsImg1"
+            app:layout_constraintTop_toBottomOf="@+id/restaurantLayout"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/restaurantDetailsName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="164dp"
+            android:layout_marginTop="24dp"
+            android:text="Menu"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/restaurantLayout5"
+            tools:text="Menu" />
+
+        <TextView
+            android:id="@+id/restaurantDetailsName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="148dp"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="0dp"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/restaurantText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/black"
+            android:text=" Predjelo "
+            android:textColor="@color/red"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/restaurantDetailsName" />
+
+        <TextView
+            android:id="@+id/restaurantText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/black"
+            android:text=" Osnovne informaicje "
+            android:textColor="@color/red"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/restaurantDetailsName3" />
+
+        <LinearLayout
+            android:id="@+id/restaurantLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical"
+            android:paddingVertical="11dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/restaurantText">
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/restaurantTex3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/black"
+            android:text=" Glavno jelo "
+            android:textColor="@color/red"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/foodDetailsImg1" />
+
+        <LinearLayout
+            android:id="@+id/restaurantLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical"
+            android:paddingVertical="11dp"
+            app:layout_constraintStart_toStartOf="@+id/restaurantTex3"
+            app:layout_constraintTop_toBottomOf="@id/restaurantTex3">
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/restaurantTex4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="32dp"
+            android:background="@color/black"
+            android:text=" Dezert "
+            android:textColor="@color/red"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/foodDetailsImg4" />
+
+        <LinearLayout
+            android:id="@+id/restaurantLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical"
+            android:paddingVertical="11dp"
+            app:layout_constraintStart_toStartOf="@+id/restaurantTex4"
+            app:layout_constraintTop_toBottomOf="@id/restaurantTex4">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/restaurantLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/restaurantText3"
+            tools:layout_editor_absoluteX="3dp"></LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/detailsProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
